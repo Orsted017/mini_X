@@ -58,11 +58,11 @@ app.use("/uploads", express.static("uploads"));
 
 // Подключение к PostgreSQL
 const pool = new Pool({
-  host: "localhost",
-  user: "postgres",
-  password: "abduqodir_2005",
-  database: "social_app",
-  port: 5433,
+  host: "dpg-d0u36lu3jp1c73fb5ibg-a",
+  user: "abduqodir",
+  password: "uH6Ytyrf7BnyiHwZjkmwMHRyh5pNSEr0",
+  database: "mini_x_ulpg",
+  port: 5432,
 });
 
 pool.connect((err) => {
